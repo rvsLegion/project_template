@@ -19,7 +19,6 @@ pipeline {
                     sleep 3
                     """
                 echo " ============== docker login  OK! =================="
-                }
             }
         }
         stage("create docker image") {
